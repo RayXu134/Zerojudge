@@ -1,0 +1,7 @@
+import math
+
+a, b = map(int, input().split())
+if a > b:
+    a, b = b, a
+
+print((b // 2 + 1) - ((a - 1) // 2 + 1))
